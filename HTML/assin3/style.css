@@ -1,0 +1,40 @@
+*{
+	margin:0 auto;
+    padding:0 auto;
+}
+.main{
+	width: 70%;
+	border: 1px solid;
+	position: relative;
+}
+.outer{
+	width: 96%;
+	height: 180px;
+	margin: 2% 2% 2% 2%;
+	background-color: #8c8c8c;
+	border-radius: 10px;
+}
+.gap{
+	height: 65%;
+}
+.button1{
+	left: 5%;
+	position: relative;
+	float: left;
+}
+.button2{
+	left: 30%;
+	position: relative;
+	float: left;
+}
+.btn {
+  background-image: linear-gradient(to bottom, #72bff2, #3498db);
+  border-radius: 28px;
+  border: 0;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+}
+.btn:hover {
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}

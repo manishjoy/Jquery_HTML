@@ -1,0 +1,50 @@
+.main{
+    margin:0 auto;
+}
+.outermost{
+	height: 311px;
+	width: 611px;
+	position: relative;
+	margin: 10% auto;
+	z-index: -1;
+}
+.topleft{
+	border: 3px solid #ff3300;
+	top: 0;
+	left: 0;
+	height: 150px;
+	width: 300px;
+	position: absolute;
+}
+.bottomleft{
+	bottom: 0;
+	left: 0;
+	border: 3px solid #0000ff;
+	height: 150px;
+	width: 300px;
+	position: absolute;
+}
+.topright{
+	top: 0;
+	right: 0;
+	border: 3px solid #ccff33;
+	height: 150px;
+	width: 300px;
+	position: absolute;
+}
+.bottomright{
+	bottom: 0;
+	right: 0;
+	border: 3px solid #ff3300;
+	height: 150px;
+	width: 300px;
+	position: absolute;
+}
+.mid{
+	top: 32%;
+	left: 40%;
+	border: 3px solid #993333;
+	height: 36%;
+	width: 20%;
+	position: absolute;
+}
